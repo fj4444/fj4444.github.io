@@ -10,7 +10,7 @@ disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
-email: wowthemesnet@gmail.com
+email: f1260617406@gmail.com
 
 # Authors
 authors:
@@ -30,6 +30,14 @@ authors:
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
     description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+  xjm:
+    name: Xjm
+    display_name: Xjm
+    avatar: 'assets/images/avatar-xie.png'
+    email: f1260617406@gmail.com
+    web: TBD
+    twitter: TBD
+    description: "test"
 
 # Plugins
 plugins:
