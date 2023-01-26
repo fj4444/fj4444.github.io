@@ -1,0 +1,22 @@
+---
+title: "Travel"
+layout: default
+permalink: "/travel.html"
+---
+
+
+{% for travel in site.categories.travel %}
+<h4 class="mt-5 mb-neg-30" id="travel"><span class="text-capitalize badge badge-primary text-small">行纪</span></h4>
+<div class="blog-grid-container">
+{% assign pages_list = travel[1] %}
+{% for post in pages_list %}
+{% if post.title != null %}
+{% if group == null or group == post.group %}
+{% include postbox.html %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</div>
+{% endfor %}
